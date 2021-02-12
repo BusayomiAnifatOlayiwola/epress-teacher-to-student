@@ -1,0 +1,6 @@
+<!-- update route -->
+<h2>Edit <%=student.sname%></h2>
+    <form action="/students/<%=student.id%>?_method=PUT" method="POST">
+      <input type="text" name="sname" value="<%=student.sname%>"><br><br>
+      <button type="submit">Update Student</button>
+    </form>

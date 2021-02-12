@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // ------------------------------------ Routes
 
 // Root Route - students
-app.get('/', (req, res) => res.send('<h1>Welcome to Students Page and Teachers Page</h1>'))
+app.get('/', (req, res) => res.send('<h1>Welcome To My App</h1>'))
 // Root Route - teachers
 // app.get('/', (req, res) => res.send('<h1>Teachers Page</h1>'))
 
